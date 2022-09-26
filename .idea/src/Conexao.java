@@ -42,10 +42,8 @@ public class Conexao {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            System.out.println("nova");
             return connection;
         }
-        System.out.println("velha");
         return connection;
     }
     //public static void main(String[] args) {
