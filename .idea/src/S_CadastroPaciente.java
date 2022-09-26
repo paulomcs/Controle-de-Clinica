@@ -124,13 +124,6 @@ public class S_CadastroPaciente extends javax.swing.JFrame {
         String CPF = jTextField2.getText();
         String nome = jTextField3.getText();
         String telefone = jTextField1.getText();
-        
-        CtrCadastrarPaciente x = new CtrCadastrarPaciente();
-        try {
-            x.setConnection();
-        } catch(SQLException e){
-            e.printStackTrace();
-        }
         //inserirValorNaTabela("123456781", "nome 1", "12345678");
         
         valido = inserirPacienteNaTabela(CPF,nome,telefone);
