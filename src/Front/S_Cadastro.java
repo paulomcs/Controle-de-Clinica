@@ -48,6 +48,11 @@ public class S_Cadastro extends javax.swing.JFrame {
         });
 
         jButton3.setText("Cadastrar Consulta");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("Voltar");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -117,6 +122,14 @@ public class S_Cadastro extends javax.swing.JFrame {
         s.setLocationRelativeTo(null);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        dispose();
+        S_CadastroConsulta cc = new S_CadastroConsulta();
+        cc.setVisible(true);
+        cc.setLocationRelativeTo(null);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
