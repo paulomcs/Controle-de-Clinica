@@ -1,0 +1,5 @@
+<dependency>
+                <groupid><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">org.postgresql</font></font></groupid>
+                <artifactid><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">postgresql</font></font></artifactid>
+                <version><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">42.5.0</font></font></version>
+            </dependency>
