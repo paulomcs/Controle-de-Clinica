@@ -1,6 +1,6 @@
 # Controle-de-Clinica
-<br>
-Participantes:
+
+Participantes:<br>
 Andre Lucas Avila Lima <br>
 Antonio Humberto Passos Neto <br>
 Fellipe Nascimento Guedes <br>
